@@ -1,20 +1,67 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Groove-machine
 
-# Run and deploy your AI Studio app
+Drum pad visualizer
 
-This contains everything you need to run your app locally.
+## 🎯 Purpose
+This repository contains a web application or API service, a frontend user interface.
 
-View your app in AI Studio: https://ai.studio/apps/79ead839-853d-4d84-b97f-b90c5270cd4d
+## 🛠️ Tech Stack
+- **Primary Language**: TypeScript
+- **Key Dependencies**: `@google/genai`, `@tailwindcss/vite`, `@types/express`, `@types/node`, `@vitejs/plugin-react`, `autoprefixer`, `dotenv`, `express`, +9 more
 
-## Run Locally
+## 🚀 Entry Points
+- `src/App.tsx`
 
-**Prerequisites:**  Node.js
+## 🔑 Key Components
+- **Functions**: `getPadStyles`, `getMiniDotStyle`, `App`, `handleAnalyze`, `handlePadDown`
 
+## 📦 Installation
+```bash
+# Clone the repository
+git clone https://github.com/richsteve17/Groove-machine.git
+cd Groove-machine
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# Install dependencies
+npm install
+
+# Optional: build if needed
+npm run build
+```
+## 💡 Usage
+Start the development server:
+```bash
+# For Node.js / Express / Next.js
+npm start  # or npm run dev
+
+# For Python (FastAPI / Flask)
+uvicorn main:app --reload  # or python app.py
+```
+The application will be accessible locally.
+
+## ⚙️ Configuration
+- `package.json` — Node.js project metadata and dependencies
+- `tsconfig.json` — TypeScript compiler configuration
+
+## 📚 Examples
+See source code for detailed method signatures and inline documentation.
+
+Key function calls:
+- `getPadStyles(...)`
+- `getMiniDotStyle(...)`
+- `App(...)`
+
+## 🤝 Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+- Built for [Groove-machine](https://github.com/richsteve17/Groove-machine).
+- Generated with ❤️ using custom code-aware documentation tools.
